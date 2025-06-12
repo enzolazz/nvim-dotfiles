@@ -1,4 +1,3 @@
-````markdown
 # Neovim Dotfiles
 
 Welcome to my Neovim configuration repository!  
@@ -109,7 +108,6 @@ My Neovim dotfiles utilize [Lazy.nvim](https://github.com/folke/lazy.nvim) as th
 ```bash
 git clone https://github.com/yourusername/neovim-dotfiles.git ~/.config/nvim
 ```
-````
 
 ### Step 2: Install Lazy.nvim
 
