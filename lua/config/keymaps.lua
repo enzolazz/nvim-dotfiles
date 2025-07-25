@@ -16,3 +16,6 @@ map("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", { desc = "Tmux Navigate Right" 
 map("n", "<C-k>", "<cmd> TmuxNavigateUp<CR>", { desc = "Tmux Navigate Up" })
 map("n", "<C-j>", "<cmd> TmuxNavigateDown<CR>", { desc = "Tmux Navigate Down" })
 map("n", "<C-\\>", "<cmd> TmuxNavigatePrevious<CR>", { desc = "Tmux Navigate Previous" })
+
+-- Hop
+map("n", "F", "<cmd> HopWord<CR>", { desc = "Hop to character after cursor" })
