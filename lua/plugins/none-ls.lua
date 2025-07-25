@@ -7,9 +7,7 @@ return {
     local formatting = nls.builtins.formatting
     opts.sources = opts.sources or {}
     vim.list_extend(opts.sources, {
-      formatting.prettier.with({
-        filetypes = { "html", "javascript", "typescript", "css", "json", "markdown" },
-      }),
+      formatting.prettier,
     })
   end,
 }
