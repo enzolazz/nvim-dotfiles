@@ -5,9 +5,18 @@ return {
     local nls = require("null-ls")
 
     local formatting = nls.builtins.formatting
+    local diagnostics = nls.builtins.diagnostics
+
     opts.sources = opts.sources or {}
     vim.list_extend(opts.sources, {
       formatting.prettier,
+      formatting.duster,
+      diagnostics.djlint,
+    })
+
+    formatting.prettier.with({
+      command = "prettier",
+      extra_args = { "--plugin", "prettier-plugin-tailwindcss" },
     })
   end,
 }
