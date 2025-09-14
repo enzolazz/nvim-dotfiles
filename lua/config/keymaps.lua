@@ -9,7 +9,6 @@ end, { desc = "Toggle LiveServer" })
 
 map("v", "<Tab>", ">gv", { desc = "Indent and reselect" })
 map("v", "<S-Tab>", "<gv", { desc = "Outdent and reselect" })
-
 -- Tmux Navigator
 map("n", "<C-h>", "<cmd> TmuxNavigateLeft<CR>", { desc = "Tmux Navigate Left" })
 map("n", "<C-l>", "<cmd> TmuxNavigateRight<CR>", { desc = "Tmux Navigate Right" })
